@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T02:15:00Z",
+  "title": "Design System: Catering C.H. Pray S.A.S.",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Hueso Esmaltado",
+        "canonical": "#EEF2EC",
+        "tonalRamp": ["#1E241F", "#343D36", "#505C52", "#6F7D71", "#93A195", "#B8C4B9", "#DCE3DC", "#EEF2EC"]
+      },
+      "enamel": {
+        "role": "neutral",
+        "displayName": "Blanco Peltre",
+        "canonical": "#F7FAF5",
+        "tonalRamp": ["#202621", "#384139", "#556156", "#768477", "#9AA79B", "#C0C9C0", "#E2E8E1", "#F7FAF5"]
+      },
+      "sage": {
+        "role": "primary",
+        "displayName": "Salvia de Cocina",
+        "canonical": "#265947",
+        "tonalRamp": ["#112B22", "#1B4234", "#265947", "#34745D", "#4B9178", "#71B099", "#A3CFC0", "#DAEAE2"]
+      },
+      "sage-deep": {
+        "role": "primary",
+        "displayName": "Salvia Profunda",
+        "canonical": "#1B4234",
+        "tonalRamp": ["#0D211A", "#143127", "#1B4234", "#265947", "#387861", "#589981", "#8BBCAE", "#C8E0D7"]
+      },
+      "sage-ink": {
+        "role": "primary",
+        "displayName": "Tinta Salvia",
+        "canonical": "#1E4B3B",
+        "tonalRamp": ["#0F261E", "#1E4B3B", "#29634E", "#397E65", "#529B81", "#77B8A0", "#A6D4C3", "#DCEEE7"]
+      },
+      "maiz": {
+        "role": "secondary",
+        "displayName": "Crema de Maíz",
+        "canonical": "#F7CE63",
+        "tonalRamp": ["#3B2B07", "#5E450D", "#876416", "#B58824", "#E5B842", "#F7CE63", "#FBE097", "#FDF1CE"]
+      },
+      "maiz-deep": {
+        "role": "secondary",
+        "displayName": "Maíz Tostado",
+        "canonical": "#E5B842",
+        "tonalRamp": ["#362706", "#57400B", "#7D5C13", "#A87D1E", "#E5B842", "#F2CB68", "#F8DF9C", "#FCF0CF"]
+      },
+      "euca": {
+        "role": "secondary",
+        "displayName": "Eucalipto Frío",
+        "canonical": "#C3D8CC",
+        "tonalRamp": ["#1C2B23", "#2F4539", "#466353", "#628471", "#84A693", "#A8C4B4", "#C3D8CC", "#E5EFE9"]
+      },
+      "euca-deep": {
+        "role": "secondary",
+        "displayName": "Eucalipto Hielo",
+        "canonical": "#A8C4B4",
+        "tonalRamp": ["#192720", "#2B4035", "#405D4E", "#5A7D6B", "#7B9F8C", "#A8C4B4", "#CBE0D4", "#E8F2EC"]
+      },
+      "navy": {
+        "role": "primary",
+        "displayName": "Peltre Marino",
+        "canonical": "#1A2F3B",
+        "tonalRamp": ["#0F1C24", "#1A2F3B", "#274454", "#385C70", "#4E788F", "#6E97AD", "#9BBAC9", "#D2E1E8"]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Tinta Pizarra",
+        "canonical": "#3E525D",
+        "tonalRamp": ["#182126", "#2A3840", "#3E525D", "#566E7B", "#738C99", "#95AAB5", "#BCCAD1", "#E2E8EB"]
+      },
+      "steel": {
+        "role": "neutral",
+        "displayName": "Acero Cepillado",
+        "canonical": "#9AA9B0",
+        "tonalRamp": ["#1F2629", "#343F44", "#4D5B61", "#697980", "#86969E", "#9AA9B0", "#C1CBD0", "#E4E9EB"]
+      },
+      "tomato": {
+        "role": "tertiary",
+        "displayName": "Punto de Tomate",
+        "canonical": "#D95338",
+        "tonalRamp": ["#3B130B", "#632114", "#8F311F", "#B8412A", "#D95338", "#E67963", "#F1A697", "#FAD8D1"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display Manifesto",
+        "purpose": "Hero headline combining 800 weight culinary warmth with 400 weight institutional clarity."
+      },
+      "headline": {
+        "displayName": "Section Headline",
+        "purpose": "Primary h2 section headings without kicker eyebrows."
+      },
+      "title": {
+        "displayName": "Vessel & Tier Title",
+        "purpose": "Enamel tier headers (h3) and request wizard header."
+      },
+      "body": {
+        "displayName": "Hyperlegible Clinical Body",
+        "purpose": "Body copy, diet descriptions, and legal compliance notes."
+      },
+      "label": {
+        "displayName": "Tabular Operational Label",
+        "purpose": "Buttons, navigation items, temperature callouts, and gram weights."
+      }
+    },
+    "shadows": [
+      {
+        "name": "rim",
+        "value": "inset 0 0 0 2px #1A2F3B",
+        "purpose": "360-degree rolled navy enamel rim on all tiers and vessels."
+      },
+      {
+        "name": "lift",
+        "value": "0 2px 0 rgba(26,47,59,0.18), 0 18px 34px -16px rgba(26,47,59,0.32)",
+        "purpose": "Physical contact lip and ambient elevation under enamel tiers."
+      },
+      {
+        "name": "btn-rest",
+        "value": "0 1px 0 rgba(255,255,255,0.18) inset, 0 8px 18px -10px rgba(26,47,59,0.55)",
+        "purpose": "Primary pill button elevation at rest."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-spring",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Smooth exponential ease-out for tier unstacking, latch rotation, and wizard steps."
+      },
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Deceleration curve for reveal masks, thermal probe, and height transitions."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Loader curtain clip-path and ambient thermal probe cycle."
+      }
+    ],
+    "breakpoints": [
+      { "name": "tablet", "value": "960px" },
+      { "name": "mobile", "value": "600px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón Broche Principal (Latch Button)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary pill CTA with an inline SVG latch shackle that rotates open on hover and snaps shut on press.",
+      "html": "<button class=\"ds-btn ds-btn--latch\" type=\"button\"><span>Solicitar cotización</span><svg class=\"ds-latch\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 10V7a5 5 0 0 1 10 0v3\"/><rect x=\"5\" y=\"10\" width=\"14\" height=\"10\" rx=\"3\"/></svg></button>",
+      "css": ".ds-btn { position: relative; isolation: isolate; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 22px; border: 0; border-radius: 999px; background: #1A2F3B; color: #FFFFFF; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 650; font-size: 1.02rem; letter-spacing: -0.01em; cursor: pointer; box-shadow: 0 1px 0 rgba(255,255,255,0.18) inset, 0 8px 18px -10px rgba(26,47,59,0.55); transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.25s, box-shadow 0.35s; } .ds-btn svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } .ds-btn .ds-latch path { transform-origin: 17px 10px; transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn:hover { background: #265947; transform: translateY(-2px); box-shadow: 0 1px 0 rgba(255,255,255,0.18) inset, 0 16px 26px -12px rgba(26,47,59,0.65); } .ds-btn:hover .ds-latch path { transform: translateY(-2.5px) rotate(18deg); } .ds-btn:active { transform: scale(0.96); } .ds-btn:focus-visible { outline: 3px solid #D95338; outline-offset: 3px; }"
+    },
+    {
+      "name": "Botón Fantasma Esmaltado (Ghost Button)",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary pill button with a 2px rolled navy rim that fills solid on hover.",
+      "html": "<button class=\"ds-btn-ghost\" type=\"button\">WhatsApp directo</button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 22px; border: 0; border-radius: 999px; background: transparent; color: #1A2F3B; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 650; font-size: 1.02rem; cursor: pointer; box-shadow: inset 0 0 0 2px #1A2F3B; transition: background-color 0.25s, color 0.25s, transform 0.35s cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn-ghost:hover { background: #1A2F3B; color: #FFFFFF; transform: translateY(-2px); } .ds-btn-ghost:focus-visible { outline: 3px solid #D95338; outline-offset: 3px; }"
+    },
+    {
+      "name": "Nivel de Portacomidas Clínico (Sage Enamel Tier)",
+      "kind": "card",
+      "refersTo": "card-tier-sage",
+      "description": "Enamelled peltre tier container for clinical hospital diets with 360-degree navy rim and tabular temperature badge.",
+      "html": "<div class=\"ds-tier-sage\"><div class=\"ds-tier-head\"><span class=\"ds-tier-title\">Alimentación hospitalaria con trazabilidad térmica</span><span class=\"ds-tier-fig\"><i class=\"ds-dot\"></i>&gt;65 °C · 5 dietas</span></div></div>",
+      "css": ".ds-tier-sage { border-radius: 28px; padding: 28px 32px; background: linear-gradient(180deg, #265947 0%, #1B4234 100%); color: #FFFFFF; box-shadow: inset 0 0 0 2px #1A2F3B, 0 2px 0 rgba(26,47,59,0.18), 0 18px 34px -16px rgba(26,47,59,0.32); font-family: 'Bricolage Grotesque', system-ui, sans-serif; } .ds-tier-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; } .ds-tier-title { font-weight: 700; font-size: 1.35rem; letter-spacing: -0.025em; } .ds-tier-fig { display: inline-flex; align-items: center; gap: 8px; font-weight: 800; font-size: 1.15rem; font-variant-numeric: tabular-nums; } .ds-dot { width: 10px; height: 10px; border-radius: 50%; background: #D95338; box-shadow: 0 0 0 3px rgba(255,255,255,0.25); }"
+    },
+    {
+      "name": "Tarjeta de Selección de Línea (Wizard Choice Tile)",
+      "kind": "input",
+      "refersTo": "card-tier-euca",
+      "description": "Tactile radio selection card inside the quote wizard with rolled border and custom radio ring.",
+      "html": "<label class=\"ds-choice\"><input type=\"radio\" name=\"ds-linea\" checked /><span class=\"ds-choice-box\"><strong>Línea hospitalaria</strong><small>Clínicas, IPS, centros de salud</small></span></label>",
+      "css": ".ds-choice { display: block; cursor: pointer; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; } .ds-choice input { position: absolute; opacity: 0; pointer-events: none; } .ds-choice-box { position: relative; display: grid; gap: 4px; padding: 18px 18px 18px 48px; border-radius: 18px; background: #EEF2EC; color: #1A2F3B; box-shadow: inset 0 0 0 1.5px rgba(26,47,59,0.18); transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s, background-color 0.25s; } .ds-choice-box::before { content: ''; position: absolute; left: 18px; top: 22px; width: 20px; height: 20px; border-radius: 50%; box-shadow: inset 0 0 0 2px #1A2F3B; background: #FFFFFF; } .ds-choice input:checked + .ds-choice-box { background: #FFFFFF; box-shadow: inset 0 0 0 2.5px #265947, 0 10px 20px -12px rgba(26,47,59,0.35); transform: translateY(-2px); } .ds-choice input:checked + .ds-choice-box::before { box-shadow: inset 0 0 0 6px #265947; } .ds-choice strong { font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-size: 1.08rem; } .ds-choice small { color: #3E525D; font-size: 0.9rem; }"
+    },
+    {
+      "name": "Campo de Entrada Institucional (Text Input)",
+      "kind": "input",
+      "refersTo": "button-ghost",
+      "description": "Form input field with subtle navy border that highlights in clinical sage on focus.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-label\">Entidad o empresa</label><input class=\"ds-input\" type=\"text\" placeholder=\"Clínica, empresa o restaurante\" /></div>",
+      "css": ".ds-field { display: grid; gap: 6px; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; } .ds-label { font-weight: 700; font-size: 0.92rem; color: #1A2F3B; } .ds-input { width: 100%; padding: 13px 14px; border-radius: 14px; border: 0; background: #EEF2EC; color: #1A2F3B; font: inherit; box-shadow: inset 0 0 0 1.5px rgba(26,47,59,0.2); transition: box-shadow 0.2s, background-color 0.2s; } .ds-input:focus { outline: none; background: #FFFFFF; box-shadow: inset 0 0 0 2px #265947, 0 0 0 4px rgba(38,89,71,0.15); }"
+    },
+    {
+      "name": "Banda de Control Térmico (Thermal Safety Scale)",
+      "kind": "custom",
+      "refersTo": "card-tier-sage",
+      "description": "Three-zone pill thermometer contrasting safe cold storage (<4 °C) and hot service (>65 °C) against the bacterial risk zone.",
+      "html": "<div class=\"ds-thermo\"><div class=\"ds-zone ds-cold\">&lt;4 °C · Cadena de frío</div><div class=\"ds-zone ds-risk\">Zona de riesgo</div><div class=\"ds-zone ds-hot\">Servicio caliente · &gt;65 °C</div></div>",
+      "css": ".ds-thermo { display: grid; grid-template-columns: 28fr 36fr 36fr; min-height: 76px; border-radius: 999px; padding: 8px; background: #143127; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: 0.9rem; } .ds-zone { display: flex; align-items: center; padding: 10px 16px; } .ds-cold { border-radius: 999px 0 0 999px; background: #C3D8CC; color: #1A2F3B; } .ds-risk { justify-content: center; color: #DAEAE2; border-block: 2px dashed rgba(255,255,255,0.28); } .ds-hot { border-radius: 0 999px 999px 0; justify-content: flex-end; background: linear-gradient(90deg, #F7CE63, #F09B46); color: #1A2F3B; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El portacomidas esmaltado",
+    "overview": "Catering C.H. Pray S.A.S. sits at the intersection of Colombian home-cooked warmth and hospital-grade institutional rigor (\"Cocinamos como en casa. Cumplimos como una institución.\"). Rather than borrowing the sterile blue-and-white visual language of clinical software or the dark rustic clichés of steakhouse catering, the design system adopts a tangible Colombian material object as its structural spine: the three-tier enamelled peltre lunch carrier (portacomidas).\n\nEvery major container on the page behaves like a pressed-steel enamel vessel with a 360-degree rolled rim in deep clinical navy, stacked vertically under a brushed-steel latch handle. Color separates the three operational lines by thermal and culinary nature—clinical sage for hot hospital diets (>65 °C), warm maíz for corporate dining rooms, and cool eucalyptus for vacuum-packed raw proteins (<4 °C)—while tabular operational ledgers and an interactive thermal safety band give hospital procurement and nutrition committees the verifiable data they require.",
+    "keyCharacteristics": [
+      "Tactile enamelled peltre vessels with 360-degree rolled navy rims (inset 0 0 0 2px #1A2F3B) instead of flat wireframe cards or single-sided accent borders.",
+      "Thermal and operational color coding across the three tiers: clinical sage (#265947), warm maíz (#F7CE63), and cold-chain eucalyptus (#C3D8CC).",
+      "Expressive culinary display typography (Bricolage Grotesque) paired with clinical-grade hyper-legible body copy and tabular figures (Atkinson Hyperlegible).",
+      "Mechanical latch-and-tier motion grammar where tiers unstack on hover or scroll and primary buttons physically unclip and latch closed on press.",
+      "Scannable clinical ledger rows (Res. 2674/2013, >65 °C / <4 °C, NIT 901.815.422-7) replacing marketing fluff."
+    ],
+    "rules": [
+      {
+        "name": "The Thermal Polarity Rule",
+        "body": "Dark enamel surfaces (#265947, #1B4234, #1A2F3B) take only white or #F7CE63 text; light enamel surfaces (#F7CE63, #C3D8CC, #EEF2EC, #F7FAF5) take only #1A2F3B or #3E525D text. Never place white text on #F7CE63 or #C3D8CC.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tomato Punto Rule",
+        "body": "#D95338 is an instrument indicator, never a surface fill or button background. Use it only on active dots (10px), progress filaments (6px height), and focus/validation marks.",
+        "section": "colors"
+      },
+      {
+        "name": "The Zero-Eyebrow Rule",
+        "body": "Section headings (h2) never carry a small uppercase kicker or pill badge above them. Let the headline and the physical container establish hierarchy directly.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Metric Rule",
+        "body": "Every temperature, gram weight, statutory resolution, and NIT number uses font-variant-numeric: tabular-nums and Bricolage Grotesque bold/extrabold so operational figures anchor the right edge of every row.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rolled-Rim Rule",
+        "body": "Borders on enamel vessels are always 360-degree uniform (inset 0 0 0 2px #1A2F3B). Never use single-sided top, left, or bottom accent stripes (border-left: 4px, etc.), which read as generic notification banners.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do wrap every major content tier and form container in the 360-degree rolled navy rim (inset 0 0 0 2px #1A2F3B) so every surface belongs to the same physical peltre family.",
+      "Do use smooth exponential ease-out curves (cubic-bezier(0.22, 1, 0.36, 1)) for tier expansions, latch rotations, and step transitions, and honor prefers-reduced-motion: reduce.",
+      "Do label all placeholder food photography transparently with <figcaption>Imagen de referencia</figcaption> until the plant's own documentary photography is substituted.",
+      "Do pair every service claim with its concrete operational metric (>65 °C, <4 °C, Res. 2674/2013, NIT 901.815.422-7, 180–250 g)."
+    ],
+    "donts": [
+      "Don't add uppercase kicker labels, pill badges, or eyebrows above h1 or h2 headings.",
+      "Don't use single-sided colored border stripes (border-top or border-left accent bars) on cards or callouts.",
+      "Don't nest bordered cards inside .stack-tier panels; use horizontal hairlines and dashed rows (.spec) directly on the enamel surface.",
+      "Don't fabricate client logos, hospital names, testimonials, or unverified daily ration counts."
+    ]
+  }
+}
